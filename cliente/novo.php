@@ -16,6 +16,8 @@ include "../includes/cabecalho.php";
     Data de Nascimento: <input name="cidade" type="number" required> <br>
     Data da Última Consulta: <input name="" type="number" required> <br>
 
+    <button type="submit" > Cadastrar </button>
+
 </form>
 
  <?php

@@ -1,5 +1,6 @@
 <?php
 include "../includes/cabecalho.php";
+include "../includes/menu.php";
 ?>
 <br>
 
@@ -10,6 +11,10 @@ include "../includes/cabecalho.php";
 <br>
 
 <h3 style="text-align: center;">Vamos te Conhecer um pouco mais Insira Seus Dados: </h3>
+
+<br>
+
+<button></button>
 
 
 
