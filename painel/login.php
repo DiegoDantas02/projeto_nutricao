@@ -11,13 +11,14 @@ include "../includes/menu.php";
 <br>
 
 <h3 style="text-align: center;"> Já tem conta? Registre-se </h3>
-
+<br>
 <br>
 <form method="post" action="validar.php">
-    <input  name="usuario" type="email" placeholder="Email" required>
+    Usuario: <input  name="usuario" type="email" placeholder="Email" required>
     <br>
     <br>
-    <input  name="senha" type="password" placeholder="senha" required maxlength="20">
+    Senha: <input  name="senha" type="password" placeholder="senha" required maxlength="20">
+    <br>
     <br>
     <br>
     <button type="submit"> Acessar Sistema</button>
