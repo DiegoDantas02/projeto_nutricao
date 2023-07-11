@@ -10,20 +10,21 @@ include "../includes/menu.php";
 <h1 style="text-align: center; color:dark; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);"> Seja Bem-Vindo ao Seu Nutricionista Virtual </h1>
 <br>
 
-<h3 style="text-align: center;"> Já tem conta? Registre-se </h3>
+<h3 style="text-align: center; "> Já tem conta? <a href="../painel/cadastro_usuario.php">Registre-se</a ></h3>
 <br>
-<br>
-<form method="post" action="validar.php">
-    Usuario: <input  name="usuario" type="email" placeholder="Email" required>
-    <br>
-    <br>
-    Senha: <input  name="senha" type="password" placeholder="senha" required maxlength="20">
-    <br>
-    <br>
-    <br>
-    <button type="submit"> Acessar Sistema</button>
-   
-</form>
+    <h2>Login</h2>
+    <form method="POST" action="validar.php">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>
+
 
 
 
