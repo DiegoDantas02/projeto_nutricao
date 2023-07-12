@@ -10,7 +10,7 @@ include "../includes/menu.php";
 <h1 style="text-align: center; color:dark; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);"> Seja Bem-Vindo ao Seu Nutricionista Virtual </h1>
 <br>
 
-<h3 style="text-align: center; "> Já tem conta? <a href="../painel/cadastro_usuario.php">Registre-se</a ></h3>
+<h3 style="text-align: center; "> Já tem conta? <a href="../painel/cadastro.php">Registre-se</a ></h3>
 <br>
     <h2>Login</h2>
     <form method="POST" action="validar.php">
